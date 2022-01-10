@@ -1,0 +1,142 @@
+@media (min-width: 992px) {
+  .flexbox-inner:hover {
+    transition: transform 0.2s ease !important;
+    transform: scale(1.2) !important;
+    cursor: pointer;
+    color: #fff;
+  }
+  .gift-sec .flexbox-cont .flexbox-inner {
+    width: 25%;
+    margin: 50px;
+    padding: 40px;
+  }
+}
+@media (max-width: 991.98px) {
+  .flexbox-inner {
+    width: 40%;
+    padding: 40px;
+  }
+  .benefit-sec {
+    padding: 100px 0 150px;
+    background: url(./images/mhoney.png) left center no-repeat,
+      url(./images/wave-banner2.png) no-repeat;
+    background-size: 0, cover;
+    position: relative;
+  }
+  .iconbox-cont {
+    justify-content: center;
+  }
+  .iconbox-inner {
+    width: 30%;
+  }
+  .about-sec {
+    background: none;
+    padding: 20px 0;
+  }
+  .about-sec .left-img {
+    display: none;
+  }
+}
+@media (max-width: 767.98px) {
+  .widget-top::after {
+    display: none;
+  }
+  .vd-box {
+    max-width: 100%;
+    margin-top: 0;
+    margin-bottom: 0;
+    height: 350px;
+  }
+  .testimonial-sec {
+    padding: 50px 0;
+    clip-path: none;
+  }
+  .widget-top {
+    flex-wrap: wrap;
+  }
+  .widget-item {
+    width: 50%;
+  }
+  .widget-top .social-hd,
+  .widget-bottom .social-smallhd {
+    display: none;
+  }
+  .mobile-social-hd {
+    display: block;
+  }
+  .widget-top,
+  .widget-bottom {
+    justify-content: center;
+  }
+  .item1,
+  .item6 {
+    width: 40vw;
+    background: #ffb9b9;
+  }
+  .item2,
+  .item5 {
+    width: 27vw;
+    background: #c3eefc;
+  }
+
+  .item3,
+  .item4,
+  .item7,
+  .item8,
+  .item9 {
+    display: none;
+  }
+  .social-widget-sec {
+    padding: 30px 0;
+  }
+  .desktop {
+    display: none;
+  }
+}
+@media (max-width: 575.98px) {
+  .flexbox-inner {
+    width: 60%;
+  }
+  .iconbox-inner {
+    width: 50%;
+  }
+  .testimonial-box .testimonial-cont p {
+    text-align: left;
+  }
+  .testimonial-box::after {
+    bottom: 90px;
+  }
+  .author-detail {
+    padding-right: 30px;
+  }
+  .mka-hd {
+    font-size: 46px;
+  }
+  .sub-hd {
+    font-size: 2.5em;
+  }
+  .sub-hd::after {
+    width: 100px;
+  }
+  .rawmh-sec {
+    padding: 100px 0 50px;
+  }
+  .benefit-sec {
+    background: #faae01;
+    padding: 50px 0;
+  }
+  .benefit-sec .sub-hd {
+    margin-bottom: 10px;
+  }
+}
+@media (max-width: 480px) {
+  .flexbox-inner {
+    width: 80%;
+  }
+  .testimonial-box {
+    max-width: 100%;
+  }
+  .vd-box {
+    height: 200px;
+  }
+}
